@@ -11,7 +11,7 @@ import com.facebook.react.bridge.JavaScriptModule
 
 class CameraCorePackage : ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-        return Arrays.asList<NativeModule>(CameraCoreModule(reactContext))
+        return  Arrays.asList<NativeModule>(CameraCoreModule(reactContext))
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
